@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(./img/bg_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-item{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+.menu-item a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 1em;
+}
+.item{
+    font-family: 'Cinzel', serif;
+    color: #202020;
+    transition: .2s;
+}
+.item:hover{
+    color: #24140e;
+    font-size: 25px;
+    transition: .5s;
+}

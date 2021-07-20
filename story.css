@@ -1,0 +1,42 @@
+html{
+    background-image: url(./img/story_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html,body{
+    height: 100%;
+}
+.menu-item{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+.menu-item a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 1em;
+}
+.item{
+    font-family: 'Cinzel', serif;
+    color: #202020;
+    transition: .2s;
+}
+.item:hover{
+    color: #24140e;
+    font-size: 25px;
+    transition: .5s;
+}
+.story_col{
+    width: 50%;
+    margin:  0 auto;
+    text-align: center;
+}
+.story_col h1{
+    font-family: 'Cinzel', serif;
+}
+.story_col p{
+    display: inline-block;
+    text-align: left;
+}
